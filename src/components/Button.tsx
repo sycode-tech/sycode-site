@@ -6,7 +6,7 @@ type Props = {
 
 export const Button = ({ children }: Props) => {
   return (
-    <button className="rounded-md px-4 py-2 bg-gray-50 text-gray-700 text-lg font-semibold">
+    <button className="rounded-lg px-6 py-3.5 bg-gray-50 text-gray-700 font-semibold">
       {children}
     </button>
   );

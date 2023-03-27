@@ -8,7 +8,7 @@ import { FaBars } from "react-icons/fa";
 import { MenuMobile } from "./MenuMobile";
 
 export const Header = () => {
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(true);
 
   return (
     <header className="w-full h-28 bg-transparent absolute inset-0">

@@ -2,6 +2,7 @@ import logoLight from "../../public/logo-light.png";
 
 import Image from "next/image";
 import { FaTimes } from "react-icons/fa";
+import { SocialMedia } from "./SocialMedia";
 
 type Props = {
   setActive: (value: boolean) => void;
@@ -12,7 +13,7 @@ type Props = {
 export const MenuMobile = ({ isActive, extraClass, setActive }: Props) => {
   return (
     <div
-      className={`w-full absolute top-0 left-0 transition-transform duration-200 ${extraClass} ${
+      className={`w-full absolute top-0 left-0 z-50 transition-transform duration-200 ${extraClass} ${
         isActive ? "-translate-x-full" : "translate-x-0"
       }`}
     >
@@ -46,11 +47,7 @@ export const MenuMobile = ({ isActive, extraClass, setActive }: Props) => {
           </li>
           <li>+55 81 99999-9999</li>
           <li>
-            <ul className="flex">
-              <li>F</li>
-              <li>I</li>
-              <li>YT</li>
-            </ul>
+            <SocialMedia />
           </li>
         </ul>
       </aside>
