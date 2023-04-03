@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 header,
-section {
+section,
+footer {
   @apply px-4 sm:px-6 lg:px-20;
 }
 
