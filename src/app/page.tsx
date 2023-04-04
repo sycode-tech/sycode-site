@@ -24,12 +24,10 @@ export default function Home() {
             <svg
               className="text-gray-50"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 1440 60"
-            >
+              viewBox="0 0 1440 60">
               <path
                 fill="currentColor"
-                d="M0,0V60H1440V0A5771,5771,0,0,1,0,0Z"
-              ></path>
+                d="M0,0V60H1440V0A5771,5771,0,0,1,0,0Z"></path>
             </svg>
           </div>
         </section>
