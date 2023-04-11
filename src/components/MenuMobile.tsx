@@ -1,7 +1,7 @@
-import logoLight from "../../public/logo-light.png";
-
 import Image from "next/image";
 import { FaTimes } from "react-icons/fa";
+
+import logoLight from "../../public/icons/logo-light.png";
 import { SocialMedia } from "./SocialMedia";
 
 type Props = {
@@ -15,8 +15,7 @@ export const MenuMobile = ({ isActive, extraClass, setActive }: Props) => {
     <div
       className={`w-full absolute top-0 left-0 z-50 transition-transform duration-200 ${extraClass} ${
         isActive ? "-translate-x-full" : "translate-x-0"
-      }`}
-    >
+      }`}>
       <aside className="max-w-xs w-full h-screen px-8 pt-8 pb-10 bg-gray-800 flex flex-col justify-between">
         <ul className="flex flex-col gap-y-4 text-gray-50 font-medium">
           <li className="flex items-center mb-5 ml-2 justify-between">
@@ -25,8 +24,7 @@ export const MenuMobile = ({ isActive, extraClass, setActive }: Props) => {
             </div>{" "}
             <button
               onClick={() => setActive(!isActive)}
-              className="cursor-pointer rounded-full hover:bg-gray-700 p-2"
-            >
+              className="cursor-pointer rounded-full hover:bg-gray-700 p-2">
               <FaTimes className="text-xl" />
             </button>
           </li>

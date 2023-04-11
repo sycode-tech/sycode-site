@@ -4,16 +4,16 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: "Urbanist, sans-serif",
+        sans: "Urbanist, sans-serif"
       },
       backgroundImage: {
-        hero: "url('/hero.jpg')",
+        hero: "url('/bg/hero.jpg')"
       },
       screens: {
         xl: "1200px",
-        "2xl": "1400px",
-      },
-    },
+        "2xl": "1400px"
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 };

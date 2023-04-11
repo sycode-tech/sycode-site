@@ -1,30 +1,30 @@
 export const cardService = [
   {
-    imageUrl: "",
     title: "Sites otimizados",
     description:
       "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.",
     link: "#",
+    icon: require("../../public/icons/site.svg")
   },
   {
-    imageUrl: "",
     title: "Design moderno",
     description:
       "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.",
     link: "#",
+    icon: require("../../public/icons/design.svg")
   },
   {
-    imageUrl: "",
     title: "Social Media",
     description:
       "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.",
     link: "#",
+    icon: require("../../public/icons/media.svg")
   },
   {
-    imageUrl: "",
     title: "Marketing",
     description:
       "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.",
     link: "#",
-  },
+    icon: require("../../public/icons/mkt.svg")
+  }
 ];

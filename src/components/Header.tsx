@@ -1,10 +1,10 @@
 "use client";
 
-import logoLight from "../../public/logo-light.png";
-
 import Image from "next/image";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
+
+import logoLight from "../../public/icons/logo-light.png";
 import { MenuMobile } from "./MenuMobile";
 
 export const Header = () => {
@@ -18,8 +18,7 @@ export const Header = () => {
         </div>
         <button
           onClick={() => setIsActive(!isActive)}
-          className="text-2xl text-gray-50 cursor-pointer lg:hidden"
-        >
+          className="text-2xl text-gray-50 cursor-pointer lg:hidden">
           <FaBars />
         </button>
         <MenuMobile

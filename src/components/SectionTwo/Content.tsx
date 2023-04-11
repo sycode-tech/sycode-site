@@ -1,9 +1,8 @@
-import { Button } from "../Button";
-
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
 
-import wallpaper from "../../../public/meet.jpg";
+import wallpaper from "../../../public/images/meet.jpg";
+import { Button } from "../Button";
 
 export const ContentSectionTwo = () => {
   return (
