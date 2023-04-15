@@ -1,7 +1,7 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 
-import { Hero } from "../sections";
+import { Community, Hero, Ideas } from "../sections";
 
 export default function Home() {
   return (
@@ -9,6 +9,8 @@ export default function Home() {
       <Header />
       <main className="bg-gray-50">
         <Hero />
+        <Ideas />
+        <Community />
       </main>
       <Footer />
     </>

@@ -9,7 +9,7 @@ export const Hero = () => {
       <h3 className="text-2xl text-center font-medium -mt-4 w-full max-w-md">
         Potencialize seu negócio, inove e otimize com nossas soluções.
       </h3>
-      <Button>Saiba mais</Button>
+      <Button style="text-gray-700">Saiba mais</Button>
       <div className="w-full absolute z-0 left-0 bottom-16 after:block after:bg-gray-50 after:w-full after:h-2 after:absolute after:-bottom-2 after:left-0">
         <svg
           className="text-gray-50"

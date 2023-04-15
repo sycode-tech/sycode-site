@@ -1,10 +1,11 @@
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
 
-import wallpaper from "../../../public/images/meet.jpg";
-import { Button } from "../Button";
+import { Button } from "@/components/Button";
 
-export const ContentSectionTwo = () => {
+import wallpaper from "../../../../public/images/meet.jpg";
+
+export const Content = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center w-full gap-16">
       <div className="rounded-lg overflow-hidden">
@@ -20,13 +21,16 @@ export const ContentSectionTwo = () => {
         </p>
         <ul className="flex flex-col gap-2">
           <li className="flex items-center gap-2">
-            <FaCheckCircle /> Aenean eu leo quam. Pellentesque ornare.
+            <FaCheckCircle className="text-violet-500" /> Aenean eu leo quam.
+            Pellentesque ornare.
           </li>
           <li className="flex items-center gap-2">
-            <FaCheckCircle /> Nullam quis risus eget urna mollis ornare.
+            <FaCheckCircle className="text-violet-500" /> Nullam quis risus eget
+            urna mollis ornare.
           </li>
           <li className="flex items-center gap-2">
-            <FaCheckCircle /> Donec id elit non mi porta gravida at eget.
+            <FaCheckCircle className="text-violet-500" /> Donec id elit non mi
+            porta gravida at eget.
           </li>
         </ul>
         <Button style="bg-violet-600 text-gray-100">Saiba mais</Button>

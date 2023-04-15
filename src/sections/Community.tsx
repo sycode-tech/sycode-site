@@ -9,7 +9,7 @@ export const Community = () => {
           Temos a confiança de vários clientes, seja mais um deles e entre no
           time!
         </h2>
-        <Button>Comece já</Button>
+        <Button style="text-gray-700">Comece já</Button>
       </div>
     </section>
   );
