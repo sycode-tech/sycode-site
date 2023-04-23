@@ -8,10 +8,6 @@ footer {
   @apply px-4 sm:px-6 lg:px-20;
 }
 
-header, main, footer {
-  @apply max-w-[1500px] mx-auto;
-}
-
 section {
   @apply text-gray-700;
 }

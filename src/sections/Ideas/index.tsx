@@ -12,7 +12,7 @@ export const Ideas = () => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <section className="pb-32 -mt-40">
+    <section className="pb-28 -mt-40">
       <div className="relative z-10 bg-transparent flex flex-wrap justify-center gap-5 pb-32">
         {cardService.map(({ title, description, link, icon }, index) => (
           <CardService

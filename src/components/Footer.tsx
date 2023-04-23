@@ -3,7 +3,7 @@ import { SocialMedia } from "./SocialMedia";
 export const Footer = () => {
   return (
     <footer className="py-24 bg-gray-50">
-      <div className="max-w-lg mx-auto flex flex-col gap-10 md:flex-row md:max-w-none lg:justify-around">
+      <div className="max-w-7xl mx-auto flex flex-col gap-10 md:flex-row lg:justify-around">
         <div className="text-lg">
           <div className="mb-2 text-3xl font-bold text-gray-600">Sycode</div>
           <p>&copy; 2023 Sycode. All rights reserved.</p>
