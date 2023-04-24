@@ -12,6 +12,9 @@ module.exports = {
       screens: {
         xl: "1200px",
         "2xl": "1400px"
+      },
+      maxWidth: {
+        "7xl": "90rem"
       }
     }
   },
