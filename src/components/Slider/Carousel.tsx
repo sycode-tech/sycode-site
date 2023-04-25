@@ -15,7 +15,7 @@ export const Carousel = () => {
   };
 
   return (
-    <div className="">
+    <div>
       <Slider settings={settings}>
         <Slide>
           <CardProject />
