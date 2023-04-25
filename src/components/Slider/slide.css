@@ -1,0 +1,11 @@
+.swiper {
+  @apply p-8 cursor-move;
+}
+
+.swiper-slide {
+  @apply flex justify-center;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-gray-300;
+}

@@ -7,6 +7,7 @@ import { Swiper, SwiperProps } from "swiper/react";
 
 import "swiper/css/bundle";
 import "swiper/swiper.css";
+import "./slide.css";
 
 type Props = {
   children: ReactNode;
