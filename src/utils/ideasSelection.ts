@@ -2,7 +2,7 @@ export const ideasSelection = [
   {
     imageUrl: require("../../public/icons/mkt.svg"),
     title: "Collect Ideas",
-    description: "Duis mollis commodo luctus cursus commodo tortor mauris."
+    description: "Duis mollis commodo luctus cursus commodo ."
   },
   {
     imageUrl: require("../../public/icons/site.svg"),

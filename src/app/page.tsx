@@ -1,7 +1,7 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 
-import { Community, Hero, Ideas, Projects } from "../sections";
+import { Community, Hero, Ideas } from "../sections";
 
 export default function Home() {
   return (
@@ -10,7 +10,6 @@ export default function Home() {
       <main className="bg-gray-50">
         <Hero />
         <Ideas />
-        <Projects />
         <Community />
       </main>
       <Footer />

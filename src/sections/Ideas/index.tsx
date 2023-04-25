@@ -1,18 +1,20 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
 
 import { CardService } from "@/sections/Ideas/components/CardService";
 import { cardService } from "@/utils/cardService";
+import { ideasSelection } from "@/utils/ideasSelection";
+import { Tab } from "@headlessui/react";
 
 import { Title } from "@/components/Title";
 
-export const Ideas = () => {
-  const [isActive, setIsActive] = useState(false);
+import { Painel } from "./components/Painel";
+import { TabCard } from "./components/TabCard";
 
+export const Ideas = () => {
   return (
-    <section className="pb-28 -mt-40">
+    <section className="pb-28 -mt-40 max-w-7xl mx-auto">
       <div className="relative z-10 bg-transparent flex flex-wrap justify-center gap-5 pb-32">
         {cardService.map(({ title, description, link, icon }, index) => (
           <CardService
@@ -28,20 +30,25 @@ export const Ideas = () => {
         subtitle="Por que escolher a Sycode?"
         title="Aqui estão algumas razões pelas quais nossos clientes escolhem a Sycode"
       />
-      {/* <div className=" mt-10 flex flex-col items-center lg:flex-row">
-        {ideasSelection.map(({ imageUrl, title, description }, index) => (
-          <SelectIdea
-            isActive={isActive}
-            key={index}
-            imageUrl={imageUrl}
-            title={title}
-            description={description}
-          />
-        ))}
+      <div className="mt-10 flex justify-center lg:flex-row">
+        <Tab.Group>
+          <div className="space-y-10 ">
+            <Tab.List className="flex flex-col lg:flex-row mx-auto items-center gap-1">
+              {ideasSelection.map(({ imageUrl, title, description }, index) => (
+                <TabCard
+                  key={index}
+                  imageUrl={imageUrl}
+                  title={title}
+                  description={description}
+                />
+              ))}
+            </Tab.List>
+            <Tab.Panels>
+              <Painel />
+            </Tab.Panels>
+          </div>
+        </Tab.Group>
       </div>
-      <div className="mt-14 max-w-2xl mx-auto lg:max-w-none">
-        <Content />
-      </div> */}
     </section>
   );
 };

@@ -1,40 +1,36 @@
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
 
+import { Tab } from "@headlessui/react";
+
 import { Button } from "@/components/Button";
 
-import wallpaper from "../../../../public/images/meet.jpg";
+type Props = {
+  imageUrl: string;
+  title: string;
+  paragraph: string;
+  list: string[];
+};
 
-export const Content = () => {
+export const Content = ({ imageUrl, paragraph, list, title }: Props) => {
   return (
-    <div className="flex flex-col lg:flex-row items-center w-full gap-16">
-      <div className="rounded-lg overflow-hidden">
-        <Image src={wallpaper} alt="" />
+    <Tab.Panel className="flex flex-col lg:flex-row items-center w-full gap-16">
+      <div className="flex-1 rounded-lg overflow-hidden max-w-xl">
+        <Image src={imageUrl} alt="" />
       </div>
-      <div className="flex flex-col gap-5 items-start">
-        <h3 className="font-semibold text-2xl text-gray-800">Collect Ideas</h3>
-        <p className="text-lg font-normal">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-          totam sit facilis quis veniam impedit corporis quos consequatur
-          voluptatem sapiente recusandae, modi enim corrupti eaque ipsa
-          similique aspernatur molestiae quibusdam!
-        </p>
+      <div className="flex-1 flex flex-col gap-5 items-start max-w-xl">
+        <h3 className="font-semibold text-2xl text-gray-800">{title}</h3>
+        <p className="text-lg font-normal">{paragraph}</p>
         <ul className="flex flex-col gap-2">
-          <li className="flex items-center gap-2">
-            <FaCheckCircle className="text-violet-500" /> Aenean eu leo quam.
-            Pellentesque ornare.
-          </li>
-          <li className="flex items-center gap-2">
-            <FaCheckCircle className="text-violet-500" /> Nullam quis risus eget
-            urna mollis ornare.
-          </li>
-          <li className="flex items-center gap-2">
-            <FaCheckCircle className="text-violet-500" /> Donec id elit non mi
-            porta gravida at eget.
-          </li>
+          {list.map((item, index) => (
+            <li className="flex items-center gap-2" key={index}>
+              <FaCheckCircle className="text-violet-500" />
+              <span>{item}</span>
+            </li>
+          ))}
         </ul>
         <Button style="bg-violet-600 text-gray-100">Saiba mais</Button>
       </div>
-    </div>
+    </Tab.Panel>
   );
 };

@@ -9,14 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.14",
     "@types/node": "18.15.7",
     "@types/react": "18.0.29",
     "@types/react-dom": "18.0.11",
     "eslint-config-next": "13.2.4",
+    "flowbite": "^1.6.5",
+    "flowbite-react": "^0.4.3",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
+    "swiper": "^9.2.4",
     "typescript": "5.0.2"
   },
   "devDependencies": {
