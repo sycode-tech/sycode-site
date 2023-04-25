@@ -1,4 +1,4 @@
-import { Carousel } from "@/components/Carousel";
+import { Carousel } from "@/components/Slider/Carousel";
 import { Title } from "@/components/Title";
 
 export const Projects = () => {

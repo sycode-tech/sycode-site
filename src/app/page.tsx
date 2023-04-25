@@ -10,6 +10,7 @@ export default function Home() {
       <main className="bg-gray-50">
         <Hero />
         <Ideas />
+        {/* <Projects /> */}
         <Community />
       </main>
       <Footer />
