@@ -1,35 +1,35 @@
 export const contentIdeias = [
   {
     imageUrl: require("../../public/images/meet.jpg"),
-    title: "Ideia 1",
+    title: "Marketing Digital",
     paragraph:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos totam sit facilis quis veniam impedit corporis quos consequatur voluptatem sapiente recusandae, modi enim corrupti eaque ipsa similique aspernatur molestiae quibusdam!",
+      "A maioria das pessoas passa muito tempo online, o marketing digital é mais acessível do que o marketing tradicional, é possível segmentar o público-alvo com precisão, é possível mensurar os resultados em tempo real e as estratégias podem ser adaptadas com facilidade.",
     list: [
-      "Aenean eu leo quam.",
-      "Nullam quis risus eget urna mollis ornare.",
-      "Donec id elit non mi porta gravida at eget."
+      "Não estar presente no mundo digital é como não existir",
+      "Seus clientes estão online. E você, está onde eles estão?",
+      "Não é sobre quem tem mais dinheiro, é sobre quem tem a melhor estratégia"
     ]
   },
   {
     imageUrl: require("../../public/images/meet2.jpg"),
-    title: "Ideia 2",
+    title: "Website",
     paragraph:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos totam sit facilis quis veniam impedit corporis quos consequatur voluptatem sapiente recusandae, modi enim corrupti eaque ipsa similique aspernatur molestiae quibusdam!",
+      "Um site pode melhorar a presença online, facilitar a comunicação com os clientes, permitir que a empresa alcance um público global, aumentar a credibilidade da marca, fornecer informações importantes aos clientes, melhorar o relacionamento com o cliente e aumentar as vendas.",
     list: [
-      "Aenean eu leo quam.",
-      "Nullam quis risus eget urna mollis ornare.",
-      "Donec id elit non mi porta gravida at eget."
+      "Um site é como um cartão de visitas digital, e você não quer ser esquecido",
+      "Sua empresa não tem um site? Você está perdendo vendas todos os dias!",
+      "Um site bem projetado é o primeiro passo para o sucesso online"
     ]
   },
   {
     imageUrl: require("../../public/images/meet3.jpg"),
-    title: "Ideia 3",
+    title: "Automação",
     paragraph:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos totam sit facilis quis veniam impedit corporis quos consequatur voluptatem sapiente recusandae",
+      "A automação aumenta a produtividade, melhora a qualidade do trabalho, reduz erros e libera tempo para se concentrar em tarefas mais importantes. Além disso, a automação permite que uma empresa funcione 24 horas por dia, 7 dias por semana, melhorando a eficiência e a eficácia.",
     list: [
-      "Lock ask screen moue",
-      "Aras wanna be unlocked",
-      "Jueal sjuq jughjt"
+      "Automação é o futuro da eficiência e produtividade no trabalho",
+      "Automatize para liberar tempo e espaço para o crescimento do seu negócio",
+      "Invista em automação para deixar você e sua equipe focada no crucial "
     ]
   }
 ];

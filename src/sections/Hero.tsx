@@ -5,7 +5,7 @@ export const Hero = () => {
     <section className="w-full h-[calc(100vh-3.5rem)] bg-hero bg-cover bg-center ">
       <div className="h-full text-gray-50 centralize gap-y-10">
         <h1 className="-mt-10 font-semibold text-4xl text-center w-full max-w-md md:max-w-lg md:text-5xl lg:max-w-3xl lg:text-6xl">
-          Simplificamos a vida com nossas soluções
+          Simplificamos a sua vida!
         </h1>
         <h3 className="text-2xl text-center font-medium -mt-4 w-full max-w-md">
           Potencialize seu negócio, inove e otimize com nossas soluções.

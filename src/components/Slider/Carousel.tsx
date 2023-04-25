@@ -1,27 +1,31 @@
 "use client";
 
-import { SwiperProps, SwiperSlide } from "swiper/react";
+import { SwiperSlide as Slide, SwiperProps } from "swiper/react";
 
+import { CardProject } from "../CardProject";
 import { Slider } from "./Slider";
 
 export const Carousel = () => {
   const settings: SwiperProps = {
     spaceBetween: 50,
-    slidesPerView: 2
+    slidesPerView: 2,
+    pagination: {
+      clickable: true
+    }
   };
 
   return (
     <div className="">
       <Slider settings={settings}>
-        <SwiperSlide>
-          <h1>Test</h1>
-        </SwiperSlide>
-        <SwiperSlide>
-          <h1>Test</h1>
-        </SwiperSlide>
-        <SwiperSlide>
-          <h1>Test</h1>
-        </SwiperSlide>
+        <Slide>
+          <CardProject />
+        </Slide>
+        <Slide>
+          <CardProject />
+        </Slide>
+        <Slide>
+          <CardProject />
+        </Slide>
       </Slider>
     </div>
   );

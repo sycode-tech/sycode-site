@@ -24,7 +24,7 @@ export const Content = ({ imageUrl, paragraph, list, title }: Props) => {
         <ul className="flex flex-col gap-2">
           {list.map((item, index) => (
             <li className="flex items-center gap-2" key={index}>
-              <FaCheckCircle className="text-violet-500" />
+              <FaCheckCircle className="text-violet-500 w-3" />
               <span>{item}</span>
             </li>
           ))}

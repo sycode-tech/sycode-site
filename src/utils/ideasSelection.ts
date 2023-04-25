@@ -1,17 +1,19 @@
 export const ideasSelection = [
   {
     imageUrl: require("../../public/icons/mkt.svg"),
-    title: "Collect Ideas",
-    description: "Duis mollis commodo luctus cursus commodo ."
+    title: "Marketing Digital",
+    description: "Técnicas de divulgação de produtos e serviços."
   },
   {
     imageUrl: require("../../public/icons/site.svg"),
-    title: "Data Analysis",
-    description: "Vivamus sagittis lacus augue fusce dapibus tellus nibh."
+    title: "Website",
+    description:
+      "Informações sobre uma empresa, produto, serviço, organização ou indivíduo."
   },
   {
     imageUrl: require("../../public/icons/media.svg"),
-    title: "Finalize Product",
-    description: "Vestibulum ligula porta felis maecenas faucibus mollis."
+    title: "Automação",
+    description:
+      "Aumente a eficiência, reduza erros e libere tempo, concentre-se em tarefas relevantes."
   }
 ];

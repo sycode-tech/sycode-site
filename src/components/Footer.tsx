@@ -16,7 +16,7 @@ export const Footer = () => {
           <p>Moonshine St. 14/05 Light City, London, United Kingdom</p>
           <ul className="text-gray-700 space-y-1 text-lg">
             <li>
-              <a href="#">info@gmail.com</a>
+              <a href="#">sycode.devv@gmail.com</a>
             </li>
             <li>+55 81 99999-9999</li>
           </ul>

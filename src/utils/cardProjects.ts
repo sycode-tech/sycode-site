@@ -1,4 +1,4 @@
-export const CardProject = [
+export const cardProject = [
   {
     imageUrl: "",
     title: "",

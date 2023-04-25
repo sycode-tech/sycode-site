@@ -1,7 +1,12 @@
+"use client";
+
 import { ReactNode } from "react";
 
-import "swiper/css";
+import { A11y, Pagination } from "swiper";
 import { Swiper, SwiperProps } from "swiper/react";
+
+import "swiper/css/bundle";
+import "swiper/swiper.css";
 
 type Props = {
   children: ReactNode;
@@ -9,5 +14,9 @@ type Props = {
 };
 
 export const Slider = ({ children, settings }: Props) => {
-  return <Swiper {...settings}>{children}</Swiper>;
+  return (
+    <Swiper modules={[Pagination, A11y]} {...settings}>
+      {children}
+    </Swiper>
+  );
 };
