@@ -11,7 +11,7 @@ export const Header = () => {
   const [isActive, setIsActive] = useState(true);
 
   return (
-    <header className="max-w-[1500px] mx-auto w-full h-28 bg-transparent absolute inset-0">
+    <header className="max-w-[1500px] mx-auto w-full h-28 bg-transparent absolute inset-0 z-10">
       <nav className="w-full h-full flex items-center justify-between lg:justify-center">
         <div className="lg:hidden w-36">
           <Image src={logoLight} alt="Logo Sycode" />
