@@ -13,7 +13,8 @@
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
-    "prettier"
+    "prettier",
+    "next"
   ],
   "overrides": [],
   "parser": "@typescript-eslint/parser",
@@ -23,6 +24,8 @@
   },
   "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier", "eslint-plugin-import-helpers"],
   "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/react-in-jsx-scope": "off",
