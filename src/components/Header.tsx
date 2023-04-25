@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 
-import logoLight from "../../public/icons/logo-light.png";
+import logoLight from "../../public/icons/logo-light.svg";
 import { MenuMobile } from "./MenuMobile";
 
 export const Header = () => {
@@ -27,9 +27,13 @@ export const Header = () => {
           extraClass="lg:hidden"
         />
         <ul className="hidden lg:flex gap-x-20 text-gray-50 text-lg font-semibold tracking-wide">
-          <li>Projetos</li>
+          <li>
+            <a href="#projects">Projetos</a>
+          </li>
           <li>Sobre nós</li>
-          <li className="hidden lg:block">Logo</li>
+          <li className="hidden lg:block">
+            <Image className="h-10 w-min" src={logoLight} alt="Logo sycode" />
+          </li>
           <li>Contato</li>
           <li>Alter Ling</li>
         </ul>
