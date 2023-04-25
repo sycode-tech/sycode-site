@@ -13,7 +13,7 @@ type Props = {
 export const MenuMobile = ({ isActive, extraClass, setActive }: Props) => {
   return (
     <div
-      className={`w-full absolute top-0 left-0 z-50 transition-transform duration-200 ${extraClass} ${
+      className={`w-full fixed top-0 left-0 z-auto transition-transform duration-200 ${extraClass} ${
         isActive ? "-translate-x-full" : "translate-x-0"
       }`}>
       <aside className="max-w-xs w-full h-screen px-8 pt-8 pb-10 bg-gray-800 flex flex-col justify-between">

@@ -15,7 +15,7 @@ import { TabCard } from "./components/TabCard";
 export const Ideas = () => {
   return (
     <section className="pb-28 -mt-40 max-w-7xl mx-auto">
-      <div className="relative z-10 bg-transparent flex flex-wrap justify-center gap-5 pb-32">
+      <div className="relative z-0 bg-transparent flex flex-wrap justify-center gap-5 pb-32">
         {cardService.map(({ title, description, link, icon }, index) => (
           <CardService
             key={index}
