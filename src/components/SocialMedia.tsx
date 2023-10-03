@@ -7,7 +7,9 @@ export const SocialMedia = () => {
         <FaFacebookF />
       </li>
       <li>
-        <FaInstagram className="text-lg" />
+        <a href="https://www.instagram.com/sycodetech/" target="_blank">
+          <FaInstagram className="text-lg" />
+        </a>
       </li>
       <li>
         <FaYoutube className="text-lg" />
