@@ -1,19 +1,12 @@
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
-
-import { Community, Hero, Ideas, Projects } from "../sections";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <main className="bg-gray-50">
-        <Hero />
-        <Ideas />
-        <Projects />
-        <Community />
-      </main>
-      <Footer />
+    <main className="w-full h-screen bg-gradient grid place-content-center">
+      <link rel="icon" href="..\icons\logo.ico" type="image/x-icon" />
+      <Image alt="Logo-Sycode" src={"/icons/logo-light.svg"} width={210} height={270} className="Image"></Image>
+    </main>
     </>
   );
 }

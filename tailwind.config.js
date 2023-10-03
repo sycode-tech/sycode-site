@@ -7,7 +7,8 @@ module.exports = {
         sans: "Urbanist, sans-serif"
       },
       backgroundImage: {
-        hero: "url('/bg/hero.jpg')"
+        hero: "url('/bg/hero.jpg')",
+        gradient: "linear-gradient(135deg,  #0A0127 0%, #170042 60%, #1F0042 100%)"
       },
       screens: {
         xl: "1200px",

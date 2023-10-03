@@ -41,7 +41,7 @@ export const MenuMobile = ({ isActive, extraClass, setActive }: Props) => {
         </ul>
         <ul className="text-gray-50 space-y-1">
           <li>
-            <a href="#">info@gmail.com</a>
+            <a href="mailto:sycode.devv@gmail.com">sycode.devv@gmail.com</a>
           </li>
           <li>+55 81 99999-9999</li>
           <li>

@@ -2,7 +2,6 @@ import "./global.css";
 
 export const metadata = {
   title: "Sycode",
-
   description: "The future of technology"
 };
 
