@@ -1,4 +1,5 @@
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
+import Image from "next/image";
 
 export const SocialMedia = () => {
   return (
@@ -7,7 +8,10 @@ export const SocialMedia = () => {
         <FaFacebookF />
       </li>
       <li>
-        <a href="https://www.instagram.com/sycodetech/" target="_blank">
+        <a
+          href="https://www.instagram.com/sycodetech/"
+          target="_blank"
+          rel="noreferrer">
           <FaInstagram className="text-lg" />
         </a>
       </li>
@@ -17,3 +21,21 @@ export const SocialMedia = () => {
     </ul>
   );
 };
+
+export default function Home() {
+  return (
+    <>
+      <main className="w-full h-screen bg-gradient grid place-content-center">
+        <link rel="icon" href="../icons/logo.ico" type="image/x-icon" />
+        <Image
+          alt="Logo-Sycode"
+          src={"/icons/logo-light.svg"}
+          width={210}
+          height={270}
+          className="Image"
+        />
+        <h2>Em Manutenção</h2>
+      </main>
+    </>
+  );
+}
