@@ -8,8 +8,8 @@ export default function Home() {
         <Image
           alt="Logo-Sycode"
           src={"/icons/logo-light.svg"}
-          width={210}
-          height={270}
+          width={215}
+          height={265}
           className="Image"
         />
         <h2>Em Manutenção</h2>

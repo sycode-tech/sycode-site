@@ -21,8 +21,10 @@ section {
 }
 h2{
   text-align: center;
-  color: azure;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 12px;
+  padding-left: 5px;
 }
 
 @keyframes logo-animate {
