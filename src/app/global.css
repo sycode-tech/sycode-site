@@ -19,6 +19,11 @@ section {
 .Image {
   animation: logo-animate 4s ease infinite;
 }
+h2{
+  text-align: center;
+  color: azure;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
 
 @keyframes logo-animate {
   0% {
