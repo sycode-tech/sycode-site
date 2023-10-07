@@ -1,5 +1,5 @@
-import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 import Image from "next/image";
+import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export const SocialMedia = () => {
   return (
